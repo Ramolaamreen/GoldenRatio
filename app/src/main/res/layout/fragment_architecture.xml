@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".Architecture">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Golden Ratio In Photography"
+                android:fontFamily="@font/aclonica"
+                android:textSize="23sp"
+                android:textColor="#000000"
+                android:id="@+id/header"
+                android:layout_marginTop="30dp"
+                android:layout_centerHorizontal="true"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The Fibonacci spiral is one of the main ways photographers can use the golden ratio in photography. Many famous photographers are known for their use of the golden ratio in photography. Ansel Adams used it often in his landscape portraits that he captured."
+                android:textSize="16sp"
+                android:id="@+id/head"
+                android:layout_below="@+id/header"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_below="@+id/head"
+                android:src="@drawable/image13"
+                android:layout_margin="10dp"
+                android:id="@+id/pic"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Create using the Fibonacci spiral in Photography:"
+                android:textSize="18sp"
+                android:textColor="#000000"
+                android:layout_marginLeft="10dp"
+                android:layout_below="@+id/pic"
+                android:id="@+id/h1"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="An easy way to create with the Fibonacci spiral is to use open space, or space that is of a different brightness than your subject."
+                android:layout_below="@id/h1"
+                android:textSize="16sp"
+                android:textStyle="italic"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/c1"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="On this image below, the eye is led to the subject by the shadowed person in the bottom left corner and the shadowed person on the right side. The light tones of the sky help bring the viewer into the image and then push the eye towards the subject."
+                android:textStyle="italic"
+                android:layout_below="@id/c1"
+                android:textSize="16sp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/c2"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:src="@drawable/image14"
+                android:layout_margin="10dp"
+                android:layout_below="@id/c2"
+                android:id="@+id/pic2"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="This image of the surfers is another example."
+                android:layout_below="@+id/pic2"
+                android:layout_marginLeft="10dp"
+                android:textSize="16sp"
+                android:textStyle="italic"
+                android:id="@+id/c3"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:src="@drawable/image15"
+                android:layout_below="@id/c3"
+                android:id="@+id/pic3"
+                android:layout_margin="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Editing Images to get the perfect Golden Ratio: "
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:layout_marginLeft="10dp"
+                android:layout_below="@+id/pic3"
+                android:id="@+id/c4"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Picturing the phi grid or the golden ratio spiral as you shoot is one thing. But what if you want that exact 1.618 magic number?\nFortunately, Photoshop and several other photo editors have tools for that.
+"
+                android:textStyle="italic"
+                android:textSize="16sp"
+                android:layout_marginLeft="10dp"
+                android:layout_below="@+id/c4"
+                android:id="@+id/c5"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:src="@drawable/image16"
+                android:layout_below="@+id/c5"
+                android:id="@+id/pic5"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Open the image in Photoshop and select the crop tool. Draw a crop box over the image.\nNext, click on the overlay options and select the composition tool you want: the golden ratio (phi grid) or the golden spiral (Fibonacci spiral)."
+                android:textSize="16sp"
+                android:textStyle="italic"
+                android:layout_below="@+id/pic5"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/c6"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:src="@drawable/image17"
+                android:layout_margin="10dp"
+                android:layout_below="@id/c6"
+                android:id="@+id/pic9"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Adjust the crop box to fine-tune your composition. If the golden spiral isn’t in the right corner of the image, you can select the cycle orientation option. Go to the same drop-down menu you selected the composition tool form or you can press Shift + O.
+"
+                android:textStyle="italic"
+                android:textSize="16sp"
+                android:id="@+id/c7"
+                android:layout_below="@id/pic9"
+                android:layout_marginLeft="10dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/c7"
+                android:text="THE END"
+                android:layout_centerHorizontal="true"
+                android:textSize="23sp"
+                android:textColor="#000000"
+                android:id="@+id/im"
+                android:fontFamily="@font/butcherman"
+                android:layout_marginBottom="30dp"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_below="@id/im"/>
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

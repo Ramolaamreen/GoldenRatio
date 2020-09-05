@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+
+        tools:context=".HomeFragment">
+
+        <ImageView
+            android:id="@+id/img_tag"
+            android:layout_width="300dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/golden"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/text_tag"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img_tag"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/aclonica"
+            android:text="Golden Ratio: What It Is?"
+            android:textColor="#000000"
+            android:layout_marginLeft="10dp"
+            android:textStyle="italic"
+            android:textSize="23sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The golden ratio, also known as the divine proportion, golden mean or golden section, is a number often encountered when taking the ratio of distances in simple geometric figures. It is denoted by Phi."
+            android:textSize="16sp"
+            android:id="@+id/txt_def"
+            android:layout_below="@+id/text_tag"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mathematically speaking, two quantities are in the GOLDEN RATIO if their ratio is same as the ratio of their sum to the larger of the two quantities. Referring the image below, a/b is the golden ratio"
+            android:textSize="16sp"
+            android:layout_below="@+id/txt_def"
+            android:id="@+id/text_extra"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+
+        <ImageView
+            android:id="@+id/img_ratio"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_below="@+id/text_extra"
+            android:src="@drawable/goldenratiographic" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img_ratio"
+            android:text="The approximate value of golden ratio is Phi=1.6180"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/val"
+            android:textSize="16sp"/>
+        <TextView
+            android:id="@+id/fib"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/aclonica"
+            android:text="Fibonacci and Golden Ratio"
+            android:layout_centerHorizontal="true"
+            android:textSize="23sp"
+            android:layout_below="@+id/val"
+            android:textColor="#000000"
+            android:layout_marginTop="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/fib"
+            android:text="When we take any two successive(one after the other) Fibonacci Numbers, their ratio of the two numbers is very close to the Golden Ratio"
+            android:textSize="16sp"
+            android:id="@+id/fibandgr"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_below="@+id/fibandgr"
+            android:src="@drawable/spiralfibonacci"
+            android:id="@+id/pic_fib" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pic_fib"
+            android:text="* The below table depicts the relation between Golden Ratio and Fibonacci numbers."
+            android:textSize="16sp"
+            android:id="@+id/rel"
+            android:layout_marginLeft="10dp" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/newtable"
+            android:layout_marginTop="10dp"
+            android:id="@+id/table"
+            android:layout_below="@+id/rel"
+            android:layout_marginBottom="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Emergence of Golden Ratio"
+            android:layout_below="@+id/table"
+            android:fontFamily="@font/aclonica"
+            android:textSize="23sp"
+            android:textColor="#000000"
+            android:id="@+id/emergence"
+            android:layout_centerHorizontal="true"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GLIMPSE HISTORY:"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+
+            android:id="@+id/history"
+            android:layout_below="@+id/emergence"
+            android:layout_margin="20dp"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_below="@+id/history"
+            android:src="@drawable/pythagoras"
+            android:id="@+id/history1" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_below="@+id/history1"
+            android:src="@drawable/thoryofbeautyscientist"
+            android:id="@+id/history2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/history2"
+            android:fontFamily="@font/butcherman"
+            android:text="THE END"
+            android:id="@+id/im"
+            android:layout_centerHorizontal="true"
+            android:textSize="23sp"
+            android:layout_marginBottom="30dp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_below="@id/im"/>
+
+
+
+
+    </RelativeLayout>
+</ScrollView>

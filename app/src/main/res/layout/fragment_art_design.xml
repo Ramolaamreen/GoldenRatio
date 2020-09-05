@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".ArtDesign">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Golden Ratio in Art &amp; Design"
+            android:textSize="23sp"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/aclonica"
+            android:textColor="#000000"
+            android:layout_marginTop="30dp"
+            android:id="@+id/header"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/header"
+            android:text="Golden Ratio is taken as the primary beauty measure, all the things around you even if they are arranged in the most random way possible, have a mathematical order that emphasizes symmetry and beauty."
+            android:textSize="16sp"
+            android:id="@+id/desc"
+            android:layout_marginLeft="10dp" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/desc"
+            android:src="@drawable/image6"
+            android:id="@+id/gr"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/gr"
+            android:text="Most of the frames of paintings are of this measure so as to enhance the beauty of the picture. If these Golden Rectangles are arranged in a fibonacci sequence, then you get spirals, and here is how."
+            android:textSize="16sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/grtxt"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/image7"
+            android:id="@+id/gr2"
+            android:layout_below="@+id/grtxt"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LOGO DESIGN:"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:layout_margin="10dp"
+            android:layout_below="@+id/gr2"
+            android:id="@+id/logo"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/logo"
+            android:id="@+id/logodesc"
+            android:text="You can also use the Golden Ratio to add the aesthetic appeal directly to a company's branding. Even if the logo itself isn't shaped like a golden rectangle or triangle, it still employ elements that use golden proportions."
+            android:textSize="16sp"
+            android:layout_marginLeft="10dp"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@id/logodesc"
+            android:src="@drawable/image8"
+            android:id="@+id/logoimg"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/logoimg"
+            android:text="Here are some logo's which are designed by using Golden Ratio:"
+            android:textSize="18sp"
+            android:textColor="#000000"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/ex"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:src="@drawable/image9"
+            android:layout_below="@+id/ex"
+            android:layout_margin="10dp"
+            android:id="@+id/toyota"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The circles used in the Toyota logo are also derived from the Golden Rectangle."
+            android:textSize="16sp"
+            android:textStyle="italic"
+            android:layout_below="@+id/toyota"
+            android:id="@+id/toto"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ART WORLD:"
+            android:textSize="18sp"
+            android:textColor="#000000"
+            android:layout_below="@+id/toto"
+            android:id="@+id/art"
+            android:layout_margin="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The art world has felt the influence of the Golden Ratio for centuries. During the Renaissance, painter and draftsman Leonardo Da Vinci used the proportions set forth by the Golden Ratio to construct his masterpieces."
+            android:textSize="16sp"
+            android:textStyle="italic"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/art"
+            android:id="@+id/davinci"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_below="@+id/davinci"
+            android:id="@+id/cap"
+            android:src="@drawable/image10"
+            android:layout_margin="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Georges Seurat also seems to have used the golden ratio in his painting to define the horizon, to place points of interest and to create balance in what would appear to be a very active scene. Here is how."
+            android:textStyle="italic"
+            android:textSize="16sp"
+            android:layout_below="@id/cap"
+            android:layout_marginTop="10dp"
+            android:id="@+id/geo"
+            android:layout_marginLeft="10dp"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_below="@+id/geo"
+            android:id="@+id/bat"
+            android:src="@drawable/image11"
+            android:layout_margin="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/bat"
+            android:text="The Golden Ratio even appears to have been used in this classic painting by Michelangelo."
+            android:id="@+id/mich"
+            android:textStyle="italic"
+            android:textSize="16sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_below="@+id/mich"
+            android:id="@+id/miche"
+            android:src="@drawable/image12"
+            android:layout_margin="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="By using the Golden Ratio you may have a greater chance of your painting being aesthetically appealing."
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/miche"
+            android:id="@+id/mi"
+            android:layout_marginBottom="40dp"
+            android:textSize="16sp"
+            android:textStyle="italic"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_below="@id/mi"/>
+
+
+
+
+
+
+    </RelativeLayout>
+</ScrollView>

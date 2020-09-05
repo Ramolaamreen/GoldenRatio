@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".universeFragment">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Golden Ratio in Universe"
+            android:textSize="23sp"
+            android:textColor="#000000"
+            android:id="@+id/header"
+            android:fontFamily="@font/aclonica"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/desc"
+            android:layout_below="@+id/header"
+            android:text="Universe has a Golden Ratio that keeps everything in order. Golden Ratio is said to be found everywhere in the universe. Centuries back, genius minds started observing patterns in the beautiful nature around themselves; From the leaf arrangement in plants, to the pattern of florets of a flower, the bracts of pinecone, or the scales of pineapple; everything had the pattern. "
+            android:textSize="16sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_below="@+id/desc"
+            android:src="@drawable/firstimg"
+            android:id="@+id/univ"
+            android:layout_margin="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Now two scientists from South Africa, Boeyens and Thackeray relate an astonishing list of apparently unrelated phenomena that follow the Golden Ratio:"
+            android:layout_below="@+id/univ"
+            android:id="@+id/scientist"
+            android:layout_marginLeft="10dp"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/scientist"
+            android:fontFamily="@font/emblema_one"
+            android:text="Here are some examples:"
+            android:textSize="18sp"
+            android:id="@+id/ex"
+            android:textColor="#000000"
+            android:layout_margin="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Golden Ratio in water:"
+            android:layout_below="@+id/ex"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/water"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/water_desc"
+            android:layout_below="@id/water"
+            android:text="The basic molecular structure abides by the golden ratio, so the tides, the hurricanes and the cyclones go with the same pattern"
+            android:textSize="16sp"
+            android:layout_marginLeft="10dp"
+            android:textStyle="italic"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_below="@id/water_desc"
+            android:src="@drawable/image2"
+            android:id="@+id/wave"
+            android:layout_margin="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="In the spirals of DNA:"
+            android:layout_below="@+id/wave"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/water1"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/water_desc1"
+            android:layout_below="@id/water1"
+            android:text="The DNA molecule, the program for all life, is based on the golden section. It measures 34 angstroms long by 21 angstroms wide for each cycle. 34 and 21, of course their ratio(1.6190476) is approximately equal to Phi"
+            android:textSize="16sp"
+            android:layout_marginLeft="10dp"
+            android:textStyle="italic"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_below="@id/water_desc1"
+            android:src="@drawable/image3"
+            android:id="@+id/dna"
+            android:layout_margin="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Golden Ratio in Galaxies:"
+            android:layout_below="@+id/dna"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/galaxy"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/galaxy"
+            android:text="Golden Ratio, the creation is not only confined to mother earth, it is even evident in the universe."
+            android:textSize="16sp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/gal"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:id="@+id/maxres"
+            android:src="@drawable/image4"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_below="@+id/gal"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Golden Ratio in Humans:"
+            android:layout_below="@+id/maxres"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/humans"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/humans1"
+            android:text="It is found that the human face obeys the constructions of the golden spirals; the closer the agreement the more aesthetically pleasing."
+            android:layout_below="@+id/humans"
+            android:layout_marginLeft="10dp"
+            android:textSize="16sp"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_below="@id/humans1"
+            android:layout_margin="10dp"
+            android:id="@+id/pic"
+            android:src="@drawable/image5"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Apart from these, there are many elements in the universe in Golden Ratio is shown. Almost in every element of the universe, Golden Ratio is depicted. "
+            android:layout_marginBottom="50dp"
+            android:layout_below="@id/pic"
+
+            android:id="@+id/apart"
+            android:textSize="16sp"
+            android:layout_marginLeft="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/apart"
+            android:text="The End"
+            android:fontFamily="@font/butcherman"
+            android:layout_centerHorizontal="true"/>
+
+
+
+
+
+    </RelativeLayout>
+</ScrollView>
